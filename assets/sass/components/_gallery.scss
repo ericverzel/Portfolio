@@ -38,6 +38,7 @@
 
 			img {
 				@include vendor('transition', 'transform #{_duration(transition)} ease-in-out');
+                opacity: 0.1;
 			}
 
 			&:after {
